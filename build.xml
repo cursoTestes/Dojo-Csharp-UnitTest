@@ -38,6 +38,7 @@
   </Target>
 
   <Target Name="Test">
+    <Exec Command="del $(TestProjectResultFile)" IgnoreExitCode="true" ContinueOnError="true" />
     <Exec Command="mstest.exe /testcontainer:$(TestProjectDll) /resultsfile:$(TestProjectResultFile)" />
   </Target>
 
