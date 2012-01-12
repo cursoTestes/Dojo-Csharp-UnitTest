@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d07b5d50-3b27-4365-8135-0c328e91621d" name="cfc@CFC-WINDOWS 2012-01-11 20:47:06" runUser="cfc-windows\cfc" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3282472d-88bf-40f6-b2e7-bdaac513d63a">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="cfc_CFC-WINDOWS 2012-01-11 20_47_06">
+      <DeploymentItem filename="C:\Projetos\CursoTestes\Vendas\bin\Debug\Vendas.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-11T20:47:06.7110113-02:00" queuing="2012-01-11T20:47:06.7250121-02:00" start="2012-01-11T20:47:06.8310182-02:00" finish="2012-01-11T20:47:07.0780301-02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="testaValor200e33centsEsperaRetorno10e1cent" storage="c:\projetos\cursotestes\vendasunittests\bin\debug\vendasunittests.dll" id="2d4bf713-1875-78c7-5d55-f0a21e7726f2">
+      <Execution id="7d259b3e-2c24-4426-b894-2af4b3674d0c" />
+      <TestMethod codeBase="C:/Projetos/CursoTestes/VendasUnitTests/bin/Debug/VendasUnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.CalculadoraComissaoUnitTest, VendasUnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testaValor200e33centsEsperaRetorno10e1cent" />
+    </UnitTest>
+    <UnitTest name="testaValor100EsperaRetorno5" storage="c:\projetos\cursotestes\vendasunittests\bin\debug\vendasunittests.dll" id="83fbda11-42ae-38b8-7669-630191670a57">
+      <Execution id="bc3d8913-6d73-4780-9ac2-e228f9187129" />
+      <TestMethod codeBase="C:/Projetos/CursoTestes/VendasUnitTests/bin/Debug/VendasUnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.CalculadoraComissaoUnitTest, VendasUnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testaValor100EsperaRetorno5" />
+    </UnitTest>
+    <UnitTest name="testaValor200EsperaRetorno10" storage="c:\projetos\cursotestes\vendasunittests\bin\debug\vendasunittests.dll" id="82e7eb6d-543c-891e-0e22-8a6e3627855f">
+      <Execution id="4810d61e-9fe6-4ebd-be91-14515a41a280" />
+      <TestMethod codeBase="C:/Projetos/CursoTestes/VendasUnitTests/bin/Debug/VendasUnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.CalculadoraComissaoUnitTest, VendasUnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testaValor200EsperaRetorno10" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2d4bf713-1875-78c7-5d55-f0a21e7726f2" executionId="7d259b3e-2c24-4426-b894-2af4b3674d0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="82e7eb6d-543c-891e-0e22-8a6e3627855f" executionId="4810d61e-9fe6-4ebd-be91-14515a41a280" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83fbda11-42ae-38b8-7669-630191670a57" executionId="bc3d8913-6d73-4780-9ac2-e228f9187129" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7d259b3e-2c24-4426-b894-2af4b3674d0c" testId="2d4bf713-1875-78c7-5d55-f0a21e7726f2" testName="testaValor200e33centsEsperaRetorno10e1cent" computerName="CFC-WINDOWS" duration="00:00:00.0189842" startTime="2012-01-11T20:47:06.8410188-02:00" endTime="2012-01-11T20:47:07.0520286-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d259b3e-2c24-4426-b894-2af4b3674d0c">
+    </UnitTestResult>
+    <UnitTestResult executionId="4810d61e-9fe6-4ebd-be91-14515a41a280" testId="82e7eb6d-543c-891e-0e22-8a6e3627855f" testName="testaValor200EsperaRetorno10" computerName="CFC-WINDOWS" duration="00:00:00.0002346" startTime="2012-01-11T20:47:07.0530287-02:00" endTime="2012-01-11T20:47:07.0580289-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4810d61e-9fe6-4ebd-be91-14515a41a280">
+    </UnitTestResult>
+    <UnitTestResult executionId="bc3d8913-6d73-4780-9ac2-e228f9187129" testId="83fbda11-42ae-38b8-7669-630191670a57" testName="testaValor100EsperaRetorno5" computerName="CFC-WINDOWS" duration="00:00:00.0002504" startTime="2012-01-11T20:47:07.0590290-02:00" endTime="2012-01-11T20:47:07.0650293-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc3d8913-6d73-4780-9ac2-e228f9187129">
+    </UnitTestResult>
+  </Results>
+</TestRun>

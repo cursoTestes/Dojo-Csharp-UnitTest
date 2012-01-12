@@ -1,0 +1,5 @@
+C:\Projetos\CursoTestes\Vendas\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projetos\CursoTestes\Vendas\bin\Debug\Vendas.exe
+C:\Projetos\CursoTestes\Vendas\bin\Debug\Vendas.pdb
+C:\Projetos\CursoTestes\Vendas\obj\x86\Debug\Vendas.exe
+C:\Projetos\CursoTestes\Vendas\obj\x86\Debug\Vendas.pdb
