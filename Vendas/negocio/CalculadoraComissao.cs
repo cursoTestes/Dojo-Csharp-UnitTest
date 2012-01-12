@@ -9,7 +9,7 @@ namespace Vendas.negocio
     {
         public double calculaComissao(double totalVendas)
         {
-            return Math.Round(totalVendas * 0.05, 2);
+            return Math.Floor(5.0 * totalVendas) / 100;
         }
     }
 }

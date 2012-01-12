@@ -40,7 +40,7 @@ namespace TestProject
         public void testaValor200e33centsEsperaRetorno10e1cent()
         {
             double totalVenda = 200.33;
-            double comissaoEsperada = 10.02;
+            double comissaoEsperada = 10.01;
 
 
             CalculadoraComissao calculadora = new CalculadoraComissao();
